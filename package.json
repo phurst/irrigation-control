@@ -72,7 +72,8 @@
           ".eslintrc"
         ],
         "options": {
-          "parser": "json"
+          "parser": "json",
+          "printWidth": 500
         }
       }
     ]
@@ -109,6 +110,7 @@
     }
   },
   "dependencies": {
+    "@fluentui/react": "^8.104.1",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.8",
     "electron-updater": "^5.2.3",
@@ -165,7 +167,6 @@
     "jest-environment-jsdom": "^28.1.3",
     "lint-staged": "^13.0.3",
     "mini-css-extract-plugin": "^2.6.1",
-    "prettier": "^2.7.1",
     "react-refresh": "^0.14.0",
     "react-test-renderer": "^18.2.0",
     "rimraf": "^3.0.2",
