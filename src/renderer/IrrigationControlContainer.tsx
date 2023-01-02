@@ -10,7 +10,7 @@ export const IrrigationControlContainer: React.FunctionComponent = (): JSX.Eleme
     <div id='irrigation-control-container' className='IrrigationControlContainer'>
       <Stack>
         <Title/>
-        <Menu/>
+        {/* <Menu/> */}
       </Stack>
     </div>
   );
