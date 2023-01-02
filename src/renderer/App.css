@@ -7,13 +7,14 @@ body {
   color: rgb(36, 17, 64);
   height: 100vh;
   width: 100vw;
-  margin: 5;
-  background: linear-gradient(
+  margin: 0px;
+  padding: 0px;
+  /* background: linear-gradient(
     200.96deg,
     #d7fe2a -29.09%,
     #57dd7b 51.77%,
     #2c769e 129.35%
-  );
+  ); */
   font-family: sans-serif;
   /* overflow-y: hidden; */
   display: flex;
@@ -65,4 +66,12 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+}
+
+.root-div {
+  flex-grow: 1;
+}
+
+.IrrigationControlContainer {
+  padding: 5px;
 }
